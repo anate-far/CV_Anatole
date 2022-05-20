@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../ressources/fonts/OpenSans-Medium.ttf");
+}
+
+body {
+    font-family: 'Open Sans';
+}

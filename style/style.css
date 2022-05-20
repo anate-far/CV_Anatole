@@ -1,13 +1,12 @@
-@import "./home.css";
-@import "./profile.css";
+@import "./font.css";
+@import "./sections/home.css";
+@import "./sections/profile.css";
 
-body
-{
+body {
 	margin: 0;
 }
 
-body > section
-{
+body>section {
 	background: #545454;
 
 	height: 100vh;
@@ -19,10 +18,10 @@ body > section
 
 
 
-@media (min-width: 480px)
-{
+@media (min-width: 480px) {
+
 	/*pour pc*/
-	body > section{
+	body>section {
 		font-size: 3vw;
 	}
 }
