@@ -1,0 +1,59 @@
+#home_page{
+    height: 100vh;
+    width: 100ww;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#home_page > img{
+    margin-left: auto;
+    margin-right: auto;
+    height: 10em;
+    border-radius: 50%;
+    border: 0.3em solid white;
+}
+
+#home_page > hgroup{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+}
+
+#home_page hgroup  h1{
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+strong{
+    font-weight: bold;
+}
+
+#home_page hgroup h2{
+    margin-top: 0;
+    font-weight: normal;
+}
+
+@media (min-width: 480px){
+    
+    #home_page{
+        flex-direction: row-reverse;
+    }
+    
+    #home_page hgroup{
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 10%;
+        font-size: 2em;
+    }
+
+    #home_page img{
+        height: 20em;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 0;
+    }
+}
+
